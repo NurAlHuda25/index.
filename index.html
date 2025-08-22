@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nur Al-Huda | Une éducation islamique visant l'excellence</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .nav-link {
+            transition: all 0.3s ease;
+        }
+        .nav-link.active {
+            color: #2563eb; /* Blue-600 */
+            font-weight: 600;
+        }
+        .scroll-smooth {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 scroll-smooth">
+
+    <!-- Navigation Bar -->
+    <header class="bg-blue-800 text-white sticky top-0 z-50 shadow-md">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row items-center justify-between">
+            <!-- Logo ajouté ici -->
+            <div class="flex items-center space-x-4">
+                <a href="#accueil" class="text-2xl font-bold text-white hover:text-blue-200 transition-colors duration-300">
+                    Nur Al-Huda
+                </a>
+                <!-- Liens de navigation existants -->
+                <a href="#a-propos" class="text-xl font-bold text-white nav-link" data-target="a-propos">À propos</a>
+            </div>
+            <div class="mt-4 sm:mt-0 space-x-4 flex">
+                <a href="#cours" class="text-sm sm:text-base font-medium text-blue-200 hover:text-white nav-link" data-target="cours">Nos Cours</a>
+                <a href="#temoignages" class="text-sm sm:text-base font-medium text-blue-200 hover:text-white nav-link" data-target="temoignages">Témoignages</a>
+                <a href="#inscription" class="text-sm sm:text-base font-medium text-blue-200 hover:text-white nav-link" data-target="inscription">Inscription</a>
+                <a href="#contact" class="text-sm sm:text-base font-medium text-blue-200 hover:text-white nav-link" data-target="contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <!-- Section 1: Accueil -->
+        <section id="accueil" class="py-16 sm:py-24 md:py-32 text-center bg-gray-50">
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight">
+                Nur Al-Huda
+            </h1>
+            <p class="mt-4 text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 max-w-4xl mx-auto">
+                Une éducation islamique visant l'excellence, alliant tradition et pédagogie moderne.
+            </p>
+            <p class="mt-4 text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
+                Cours de Coran, de Sciences Islamiques et d'Arabe pour enfants et adultes, 100% en ligne.
+            </p>
+            <p class="mt-6 text-base sm:text-lg text-gray-700 max-w-4xl mx-auto">
+                Forte de <span class="font-bold">10 ans d'expérience</span> en enseignement et diplômée en Sciences Islamiques et en Lettres Françaises, je propose un accompagnement de qualité pour les enfants et les femmes. Mon objectif est de transmettre la richesse du savoir islamique tout en utilisant des méthodes d'apprentissage structurées et adaptées à chacun.
+            </p>
+            <p class="mt-4 text-base sm:text-lg text-gray-700 max-w-4xl mx-auto">
+                Grâce à des séances en visioconférence en **petits groupes de 4 à 5 personnes**, nous créons un environnement d'apprentissage chaleureux, interactif et efficace, accessible où que vous soyez.
+            </p>
+            <div class="mt-8">
+                <a href="#contact" class="inline-block bg-purple-600 text-white font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-purple-700 transition duration-300 transform hover:scale-105">
+                    Contactez-moi pour un cours d'essai
+                </a>
+            </div>
+
+            <!-- "Why Choose Us" Section -->
+            <div class="mt-16 sm:mt-24">
+                <h2 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-8">Pourquoi choisir nos cours ?</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-left">
+                    <div class="bg-white p-6 rounded-xl shadow-md transform hover:scale-105 transition-transform duration-300">
+                        <h3 class="font-semibold text-lg text-gray-900">Expertise reconnue</h3>
+                        <p class="mt-2 text-sm text-gray-600">Diplômes universitaires et formations spécialisées au Caire, à l'IESH de Paris et de Château-Chinon, et à l'Institut Addani.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-md transform hover:scale-105 transition-transform duration-300">
+                        <h3 class="font-semibold text-lg text-gray-900">Pédagogie structurée</h3>
+                        <p class="mt-2 text-sm text-gray-600">Mon double diplôme en Lettres Françaises me permet de construire une approche claire et rigoureuse.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-md transform hover:scale-105 transition-transform duration-300">
+                        <h3 class="font-semibold text-lg text-gray-900">Flexibilité et Proximité</h3>
+                        <p class="mt-2 text-sm text-gray-600">Cours en ligne en petits groupes pour un suivi personnalisé et une interaction accrue.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-md transform hover:scale-105 transition-transform duration-300">
+                        <h3 class="font-semibold text-lg text-gray-900">10 ans d'expérience</h3>
+                        <p class="mt-2 text-sm text-gray-600">Un savoir-faire éprouvé et une grande capacité d'adaptation à tous les niveaux.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: À propos -->
+        <section id="a-propos" class="py-16 sm:py-24 md:py-32 bg-green-50 rounded-2xl shadow-inner">
+            <div class="flex flex-col md:flex-row items-center max-w-4xl mx-auto">
+                <div class="w-full md:w-1/3 flex justify-center mb-8 md:mb-0 md:mr-8">
+                    <img src="uploaded:image site.jfif-bc58a905-a67e-4bd2-949c-4134eddebdf2" alt="Illustration d'une citation sur l'éducation islamique" class="rounded-xl shadow-lg border-4 border-white">
+                </div>
+                <div class="w-full md:w-2/3">
+                    <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">À propos de moi</h2>
+                    <p class="text-gray-700 leading-relaxed">
+                        Mon engagement dans l'enseignement des sciences islamiques a commencé il y a dix ans. C'est une passion que je cultive depuis l'enfance, ayant moi-même mémorisé le Coran et ses règles à un très jeune âge. J'ai eu l'opportunité de me former auprès d'instituts prestigieux, en France et à l'étranger :
+                    </p>
+                    <ul class="list-disc list-inside mt-4 text-gray-700 leading-relaxed space-y-2">
+                        <li>**Licence en Sciences Islamiques** (IFESI, Boissy) et **Master en Sciences Islamiques** (IESH, Paris).</li>
+                        <li>**Formation spécialisée en sciences coraniques** à l'IESH de Château-Chinon et à l'Institut Addani.</li>
+                        <li>**Formation au Caire** pour approfondir ma maîtrise des règles de récitation (`tajwid`).</li>
+                    </ul>
+                    <p class="mt-4 text-gray-700 leading-relaxed">
+                        Parallèlement, ma formation en **Lettres Françaises et en Langues** me permet de construire une pédagogie claire et accessible. J'enseigne à des publics variés, enfants de tous âges et femmes, et j'ai eu la chance de travailler avec de nombreuses écoles et associations en Île-de-France, ce qui a enrichi mon approche et ma capacité d'adaptation.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Cours -->
+        <section id="cours" class="py-16 sm:py-24 md:py-32">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center text-gray-900 mb-12">Nos cours</h2>
+            <div class="text-center text-gray-600 mb-12">
+                <p class="font-semibold text-lg">Nos cours se font uniquement en ligne, à raison de deux fois par semaine. Les séances durent 1h30 et se déroulent en petits groupes de 4 à 5 personnes pour favoriser les échanges et l'apprentissage.</p>
+            </div>
+            
+            <!-- Cours de Coran -->
+            <div class="bg-purple-50 p-6 sm:p-8 rounded-2xl shadow-lg mb-12">
+                <h3 class="text-2xl sm:text-3xl font-bold text-purple-900 mb-4">Cours de Coran</h3>
+                <p class="text-gray-700 leading-relaxed mb-6">Que vous soyez débutant souhaitant apprendre les bases ou un lecteur avancé cherchant à perfectionner votre récitation, nos cours de Coran sont conçus pour vous accompagner à chaque étape.</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-white p-6 rounded-xl shadow-md">
+                        <h4 class="font-semibold text-xl text-gray-900">Apprentissage de la lecture (débutants)</h4>
+                        <p class="mt-2 text-sm text-gray-600">Maîtrise des lettres, des voyelles et des mots pour lire le Coran de manière fluide et autonome.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-md">
+                        <h4 class="font-semibold text-xl text-gray-900">Perfectionnement de la lecture</h4>
+                        <p class="mt-2 text-sm text-gray-600">Correction et embellissement de la récitation, en se concentrant sur l'articulation des lettres (`makharij al-huruf`).</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-md">
+                        <h4 class="font-semibold text-xl text-gray-900">Mémorisation (`Hifdh`)</h4>
+                        <p class="mt-2 text-sm text-gray-600">Méthodes efficaces de mémorisation, accompagnées d'une révision régulière.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-md">
+                        <h4 class="font-semibold text-xl text-gray-900">Les règles de Tajwid</h4>
+                        <p class="mt-2 text-sm text-gray-600">Abordées en théorie et en pratique, pour une récitation parfaite et conforme.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cours d'Éducation Islamique -->
+            <div class="bg-cyan-50 p-6 sm:p-8 rounded-2xl shadow-lg">
+                <h3 class="text-2xl sm:text-3xl font-bold text-cyan-900 mb-4">Cours d'Éducation Islamique</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-white p-6 rounded-xl shadow-md">
+                        <h4 class="font-semibold text-xl text-gray-900">Pour les enfants (6-18 ans)</h4>
+                        <ul class="list-disc list-inside mt-2 text-sm text-gray-600">
+                            <li>`Tawhid` (monothéisme) : Étude des fondements de la foi.</li>
+                            <li>`Fiqh` (jurisprudence) : Apprentissage des règles de la prière, des ablutions, etc.</li>
+                            <li>Histoire de l'Islam : Découverte de la vie du Prophète et des grands événements.</li>
+                            <li>Comportement et éthique (`Adab`) : Transmission des valeurs de respect et de bienveillance.</li>
+                        </ul>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-md">
+                        <h4 class="font-semibold text-xl text-gray-900">Pour les sœurs adultes</h4>
+                        <ul class="list-disc list-inside mt-2 text-sm text-gray-600">
+                            <li>Bases du `Fiqh` : Étude des règles essentielles liées à la pratique religieuse quotidienne.</li>
+                            <li>Cours de `Tawhid` : Approfondissement du concept d'unicité d'Allah pour renforcer la foi.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Section 4: Inscription -->
+        <section id="inscription" class="py-16 sm:py-24 md:py-32 bg-gray-100 rounded-2xl shadow-inner text-center">
+            <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">Inscription</h2>
+            <p class="max-w-3xl mx-auto text-gray-700 leading-relaxed text-lg mb-8">
+                Prêt à commencer votre parcours d'apprentissage ? Les inscriptions sont ouvertes pour nos cours de Coran et de Sciences Islamiques. Contactez-nous pour réserver votre place.
+            </p>
+            <a href="#contact" class="inline-block bg-purple-600 text-white font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-purple-700 transition duration-300 transform hover:scale-105">
+                Je m'inscris
+            </a>
+        </section>
+
+        <!-- Section 5: Témoignages -->
+        <section id="temoignages" class="py-16 sm:py-24 md:py-32 text-center bg-yellow-50 rounded-2xl shadow-inner">
+            <h2 class="text-3xl sm:text-4xl font-bold text-yellow-900 mb-12">Témoignages</h2>
+            <div class="max-w-4xl mx-auto space-y-8">
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <p class="italic text-gray-700 leading-relaxed">
+                        "Notre fille a fait des progrès remarquables en un an. L'approche de l'enseignante est à la fois douce et rigoureuse. Elle a vraiment retrouvé la motivation."
+                    </p>
+                    <p class="mt-4 font-semibold text-gray-900">— Une maman</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <p class="italic text-gray-700 leading-relaxed">
+                        "J'ai toujours voulu apprendre le Coran. Avec ces cours, je me sens à l'aise et j'ai déjà mémorisé plusieurs sourates."
+                    </p>
+                    <p class="mt-4 font-semibold text-gray-900">— Une élève adulte</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 6: Contact -->
+        <section id="contact" class="py-16 sm:py-24 md:py-32">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center text-gray-900 mb-12">Contact</h2>
+            <div class="max-w-2xl mx-auto bg-white p-8 rounded-xl shadow-lg">
+                <form action="#" method="POST" class="space-y-6">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-700">Nom, Prénom</label>
+                        <input type="text" id="name" name="name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700">Adresse e-mail</label>
+                        <input type="email" id="email" name="email" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50">
+                    </div>
+                    <div>
+                        <label for="phone" class="block text-sm font-medium text-gray-700">Numéro de téléphone (facultatif)</label>
+                        <input type="tel" id="phone" name="phone" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                        <textarea id="message" name="message" rows="4" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="inline-block bg-purple-600 text-white font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-purple-700 transition duration-300 transform hover:scale-105">
+                            Envoyer
+                        </button>
+                    </div>
+                </form>
+                <div class="mt-8 text-center text-gray-600">
+                    <p>Vous pouvez aussi me contacter directement par :</p>
+                    <p class="mt-2 font-medium">Téléphone : 07 44 98 38 30 (disponible sur WhatsApp)</p>
+                    <p class="mt-1 font-medium">Email : sabrnurhuda@gmail.com</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-900 text-white py-8 mt-16">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p>&copy; 2024 Nur Al-Huda. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script>
+        const navLinks = document.querySelectorAll('.nav-link');
+        const sections = document.querySelectorAll('section');
+
+        // Function to update the active class on navigation links based on scroll position
+        function updateActiveLink() {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (window.scrollY >= sectionTop - 100) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.dataset.target === current) {
+                    link.classList.add('active');
+                }
+            });
+        }
+
+        // Add scroll event listener to update active link
+        window.addEventListener('scroll', updateActiveLink);
+    </script>
+</body>
+</html>
